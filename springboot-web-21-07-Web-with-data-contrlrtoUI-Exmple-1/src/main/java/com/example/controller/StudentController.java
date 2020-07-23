@@ -13,6 +13,7 @@ public class StudentController {
 	{
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("Register");
+		System.out.println("This is student controller");
 		return mv;
 		
 	}
